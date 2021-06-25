@@ -343,6 +343,11 @@ h2
   background: rgb(53,211,124);
   background: linear-gradient(0deg, rgba(53,211,124,0) 0%, rgba(7,48,66,0.24551819018623078) 100%); 
 }
+.coutFormation 
+{
+  margin-left: 5%;
+  margin-right: 5%;
+}
 .coutFormation >h1
 {
   text-decoration: underline;
