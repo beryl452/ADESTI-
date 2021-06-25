@@ -87,14 +87,14 @@ nav ul li a:hover
 }
 .firstSection
 {
-    width: 100%;
-    flex: 1;
-    min-height: 100vh;
-    /* height: 595px; */
-    display: flex;
-    flex-direction: row;
-    background: #073042;
-    background: linear-gradient(0deg, #073042dc 9%, #35d37cd1 100%);
+  width: 100%;
+  flex: 1;
+  min-height: 100vh;
+  /* height: 595px; */
+  display: flex;
+  flex-direction: row;
+  background: #073042;
+  background: linear-gradient(0deg, #073042dc 9%, #35d37cd1 100%);
 }
 .SvgDiv
 {
@@ -151,7 +151,21 @@ nav ul li a:hover
   }
   .firstSection
   {
-    flex-direction: column-reverse;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 90px;
+    height: auto;
+    /* border:3px #fff dashed; */
+  }
+  /* .SvgDiv1,.SvgDiv2 */
+  /* { */
+    /* border:3px #fff dashed; */
+  /* } */
+  .SvgDiv2
+  {
+    min-height: min-content;
   }
   .firstSection  div
   {
