@@ -177,7 +177,10 @@ nav ul li a:hover
   {
     font-size: 20px;
   }
-
+  .coutFormation ul li 
+  {
+    font-size: 25px;
+  }
 }
 /* .theMain
 {
